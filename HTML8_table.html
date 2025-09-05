@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=, initial-scale=1.0" />
+    <title>table</title>
+    <!-- styling table -->
+    <!-- kalau tidak di styling ga ada garis sama ga beraturan -->
+    <style>
+      body {
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      }
+      table {
+        border-collapse: collapse;
+        width: 70%;
+      }
+      td,
+      th {
+        border: 1px solid black;
+        text-align: left;
+        padding: 10px;
+      }
+      th {
+        background-color: green;
+        color: white;
+      }
+      tr {
+        background-color: rgb(255, 255, 255);
+      }
+    </style>
+  </head>
+  <body>
+    <!-- judul -->
+    <h2>table sekolah</h2>
+    <!-- isi tabel -->
+    <table>
+      <tr>
+        <th>NISN</th>
+        <th>nama siswa</th>
+        <th>umur</th>
+      </tr>
+      <tr>
+        <td>35101101</td>
+        <td>Abdul Rozak</td>
+        <td>18</td>
+      </tr>
+      <tr>
+        <td>35101102</td>
+        <td>Anas Ilham M.</td>
+        <td>19</td>
+      </tr>
+      <tr>
+        <td>35101103</td>
+        <td>Firdaus Irsyadul I.</td>
+        <td>17</td>
+      </tr>
+      <tr>
+        <td>35101104</td>
+        <td>Muhammad Nashril H.</td>
+        <td>18</td>
+      </tr>
+      <tr>
+        <td>35101105</td>
+        <td>Nahrul Irham</td>
+        <td>18</td>
+      </tr>
+      <tr>
+        <td
+          colspan="3"
+          style="text-align: center; background-color: green; color: white"
+        >
+          selamat lulus
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
